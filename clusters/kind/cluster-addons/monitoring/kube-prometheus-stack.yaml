@@ -14,10 +14,6 @@ spec:
     helm:
       releaseName: kube-prometheus-stack
       valuesObject:
-        prometheus:
-          prometheusSpec:
-            serviceMonitorNamespaceSelector:
-              monitoring: prometheus
         grafana:
           plugins:
             - grafana-exploretraces-app
