@@ -31,7 +31,7 @@ spec:
             additionalLabels:
               release: kube-prometheus-stack # matches kube-prometheus-stack release label
   destination:
-    namespace: mig
+    namespace: top
     name: "in-cluster"
   syncPolicy:
     automated:
