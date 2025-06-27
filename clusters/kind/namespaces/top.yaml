@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: top
+  labels:
+    name: top
+    monitoring: prometheus
